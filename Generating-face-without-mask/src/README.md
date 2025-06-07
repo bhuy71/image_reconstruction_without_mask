@@ -1,4 +1,4 @@
-# Unmask System. Reconsstructing Faces Beyond the Mask — Group 16
+# Unmask System. Reconsstructing Faces Beyond the Mask
 
 
 ![Logo](https://github.com/user-attachments/assets/9f9680e0-e058-4fa0-983c-972cb8ba9451)
@@ -10,7 +10,7 @@
 
 In an era where public health and safety are paramount, understanding and detecting the presence of face masks has become a crucial task.
 
-This project represents our team’s initiative to develop a model capable of detecting face masks in images. Leveraging the **Face Mask Lite** dataset, we designed a machine learning pipeline focused on efficiency and accuracy. Our system utilizes **Python** as the primary programming language, integrating popular libraries like Keras and Pytorch to build and train our detection model.
+This project represents my initiative to develop a model capable of detecting face masks in images. Leveraging the **Face Mask Lite** dataset, we designed a machine learning pipeline focused on efficiency and accuracy. Our system utilizes **Python** as the primary programming language, integrating popular libraries like Keras and Pytorch to build and train our detection model.
 
 The application is lightweight, scalable, and optimized for practical use cases such as public monitoring systems and workplace compliance checks. It prioritizes accuracy while ensuring computational efficiency, making it adaptable for deployment in real-world scenarios.
 
@@ -119,11 +119,9 @@ Please refer to these following links for essential document:
 ## Acknowledgments
 This project would not have been possible without the invaluable contributions of several open-source libraries, such as [Keras](link Keras), [PyTorch](link Pytorch), and [Diffusers](link Diffusers). Their robust tools and resources were instrumental in the success of this project.
 
-We extend our heartfelt gratitude to our lecturers, Professor Nguyen Hung Son and Professor Trang Viet Chung, for assigning us this challenging yet captivating project. It has been an incredible learning opportunity that has significantly enhanced our knowledge and skillset.
+I extend my heartfelt gratitude to my lecturers, Professor Tran Vinh Duc for assigning me this challenging yet captivating project. It has been an incredible learning opportunity that has significantly enhanced my knowledge and skillset.
 
-Our sincere thanks also go to our teaching assistants, Doan The Vinh and Nguyen Ba Thiem, for their unwavering support and constructive feedback throughout the project. 
-
-Finally, we would like to acknowledge our peers for their indirect contributions, offering both moral and practical support that kept us motivated and
+Finally, we would like to acknowledge our peers for their indirect contributions, offering both moral and practical support that kept me motivated and
 
 ***
 
