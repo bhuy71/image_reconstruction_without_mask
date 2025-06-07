@@ -116,13 +116,6 @@ Please refer to these following links for essential document:
   
 ***
 
-
-## Demo
-![Demo](https://github.com/user-attachments/assets/51e5dfe0-7586-47ba-92c2-5a233c3fca9f)
-
-***
-
-
 ## Acknowledgments
 This project would not have been possible without the invaluable contributions of several open-source libraries, such as [Keras](link Keras), [PyTorch](link Pytorch), and [Diffusers](link Diffusers). Their robust tools and resources were instrumental in the success of this project.
 
@@ -133,17 +126,6 @@ Our sincere thanks also go to our teaching assistants, Doan The Vinh and Nguyen 
 Finally, we would like to acknowledge our peers for their indirect contributions, offering both moral and practical support that kept us motivated and
 
 ***
-
-
-## Contributors
-- Lại Trí Dũng - 20225486
-- Đỗ Đình Hoàng - 20225445
-- Bùi Văn Huy - 20225497
-- Vũ Việt Long - 20225508
-- Trịnh Huynh Sơn - 20225526
-
-***
-
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
