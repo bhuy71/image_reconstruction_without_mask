@@ -105,16 +105,27 @@ Before you run infer.py or you use the GUI you must download all the model in th
 ### GUI( recommended)
   
   Apart from creating the infer.py script following the teaching assistant's instructions, we have also implemented an additional user-friendly interface. This interface allows users to run our code more conveniently through an intuitive GUI. Following these steps to experiment our product:
-  # Note: I recommend you use Kaggle for faster processing because of its strong GPU.
+  ### Note: I recommend you use Kaggle for faster processing because of its strong GPU. 
+
+  
   I. If you use Kaggle:
+  
         1.You create a new notebook then import notebook UnMaskUI.ipynb into it.
+        
         2.You must upload the models you dowloaded in the links into your notebook and change the directory to the models in the notebook.
+        
            + KERAS_MODEL_PATH = <path_to_keras_model>
+           
            + DETECTION_MODEL_PATH = <path_to_detection_model>
+           
            + PYTORCH_MODEL_PATH = <path_to_pytorch_model>
+           
            + DIFFUSION_MODEL_PATH = <path_to_diffusion_model>
+           
         3.Run all cells and in the final cell , there is a link of the interface appears, click on that to use my interface.
+        
   II. If you do not use Kaggle:
+  
      1. Direct and open the file: UnMaskUI.py or UnMaskUI.ipynb. They are all the same but displayed into 2 different format
      
      2. Paste the model path to the param:
