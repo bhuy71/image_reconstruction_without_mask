@@ -425,11 +425,11 @@ def main():
     pytorch_model_path=args.pytorch_model_path,
     diffusion_model_path=args.diffusion_model_path,
     keras_model_path=args.keras_model_path,
-    detection_model_path="PretrainedDiffusion_2_Inpainting/mask_detection.pt"  # This remains constant
+    detection_model_path="/kaggle/working/image_reconstruction_without_mask/Generating-face-without-mask/src/Pretrained.StableDiffusion2Inpainting/mask_detection.pt"  # This remains constant
   )
 
   # Assuming the YOLO model for detection
-  yolo_model = YOLO("PretrainedDiffusion_2_Inpainting/mask_detection.pt")
+  yolo_model = YOLO("/kaggle/working/image_reconstruction_without_mask/Generating-face-without-mask/src/Pretrained.StableDiffusion2Inpainting/mask_detection.pt")
 
   input_image_path = args.input
   output_image_path = args.output
