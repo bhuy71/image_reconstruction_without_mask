@@ -319,7 +319,7 @@ def preprocess_image_to_latent(image_path):
 
 
 # In[20]:
-detection_model = YOLO("Generating-face-without-mask\src\Pretrained.StableDiffusion2Inpainting\mask_detection.pt")
+detection_model = YOLO("/kaggle/working/image_reconstruction_without_mask/Generating-face-without-mask/src/Pretrained.StableDiffusion2Inpainting/mask_detection.pt")
 # Display and process images
 def display_images(generator, model_yolo, img_loader, save_folder):
     """
