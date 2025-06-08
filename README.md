@@ -10,7 +10,7 @@
 
 In an era where public health and safety are paramount, understanding and detecting the presence of face masks has become a crucial task.
 
-This project represents my initiative to develop a model capable of detecting face masks in images. Leveraging the **Face Mask Lite** dataset, we designed a machine learning pipeline focused on efficiency and accuracy. Our system utilizes **Python** as the primary programming language, integrating popular libraries like Keras and Pytorch to build and train our detection model.
+This project represents my initiative to develop a model capable of detecting face masks in images. Leveraging the **Face Mask Lite** dataset, I designed a machine learning pipeline focused on efficiency and accuracy. My system utilizes **Python** as the primary programming language, integrating popular libraries like Keras and Pytorch to build and train my detection model.
 
 The application is lightweight, scalable, and optimized for practical use cases such as public monitoring systems and workplace compliance checks. It prioritizes accuracy while ensuring computational efficiency, making it adaptable for deployment in real-world scenarios.
 
@@ -104,7 +104,7 @@ Before you run infer.py or you use the GUI you must download all the model in th
 
 ### GUI( recommended)
   
-  Apart from creating the infer.py script following the teaching assistant's instructions, we have also implemented an additional user-friendly interface. This interface allows users to run our code more conveniently through an intuitive GUI. Following these steps to experiment our product:
+  Apart from creating the infer.py script following the teaching assistant's instructions, I have also implemented an additional user-friendly interface. This interface allows users to run our code more conveniently through an intuitive GUI. Following these steps to experiment our product:
   ### Note: I recommend you use Kaggle for faster processing because of its strong GPU. 
 
   
@@ -145,7 +145,6 @@ This project would not have been possible without the invaluable contributions o
 
 I extend my heartfelt gratitude to my lecturers, Professor Tran Vinh Duc for assigning me this challenging yet captivating project. It has been an incredible learning opportunity that has significantly enhanced my knowledge and skillset.
 
-Finally, we would like to acknowledge our peers for their indirect contributions, offering both moral and practical support that kept me motivated and
 
 ***
 
