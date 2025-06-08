@@ -64,7 +64,7 @@ The application is lightweight, scalable, and optimized for practical use cases 
 
 
 ## Requirements
-Referring to our libraries use: `install.sh`
+Referring to my libraries use: `install.sh`
 
 ***
 
@@ -104,7 +104,7 @@ Before you run infer.py or you use the GUI you must download all the model in th
 
 ### GUI( recommended)
   
-  Apart from creating the infer.py script following the teaching assistant's instructions, I have also implemented an additional user-friendly interface. This interface allows users to run our code more conveniently through an intuitive GUI. Following these steps to experiment our product:
+  Apart from creating the infer.py script following the teaching assistant's instructions, I have also implemented an additional user-friendly interface. This interface allows users to run my code more conveniently through an intuitive GUI. Following these steps to experiment my product:
   ### Note: I recommend you use Kaggle for faster processing because of its strong GPU. 
 
   
