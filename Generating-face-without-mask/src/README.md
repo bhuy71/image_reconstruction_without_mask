@@ -77,13 +77,16 @@ Please refer to these following links for essential document:
 
 [Training dataset](https://drive.google.com/drive/folders/1YSau5CWdgtpQGOpCvqhKLqvBwnVrO7jw?usp=sharing)
 
-[BasicGan checkpoint (Keras model)](https://drive.google.com/file/d/1vjCB1Q21YFjnUDGkui1DrJsFLC7ztLlc/view?usp=sharing)
+[BasicGan checkpoint (Keras model)](https://drive.google.com/drive/folders/1EptsRKAHr3xJ31wTGbvBKaIuw1j2nTGu)
 
-[Detection model](https://drive.google.com/file/d/1VsfW6QPsrOQqxsaV-ER3W2rBfryzE2P1/view?usp=sharing)
+[Detection model](https://drive.google.com/drive/folders/1EptsRKAHr3xJ31wTGbvBKaIuw1j2nTGu)
 
 [Premium GAN checpoint (Pytorch model)](https://drive.google.com/drive/folders/1JktC1krdN7wD1XqfuDTwnlsClhQaZ1Kg?usp=drive_link)
 
-[Diffusion checkpoint](https://drive.google.com/file/d/186KQQTm-MmXlFYh1MzB2NUWw5KZsRqWk/view?usp=sharing)
+[Diffusion checkpoint](https://www.kaggle.com/models/bhuy71/diffusion)
+
+### Note
+Before you run infer.py or you use the GUI you must download all the model in the links above including (Keras model, Detection model, pytorch model, diffusion model). Then you must change the directory to the model in the file you want to run.
 
 ### infer.py
 
@@ -99,20 +102,30 @@ Please refer to these following links for essential document:
 
      python script.py --model Keras Generator --keras_model_path /path/to/keras/model --input /path/to/input/image --output output.png
 
-### GUI
+### GUI( recommended)
   
   Apart from creating the infer.py script following the teaching assistant's instructions, we have also implemented an additional user-friendly interface. This interface allows users to run our code more conveniently through an intuitive GUI. Following these steps to experiment our product:
-  1. Direct and open the file: UnMaskUI.py or UnMaskUI.ipynb. They are all the same but displayed into 2 different format
-  
-  2. Paste the model path to the param:
-     + KERAS_MODEL_PATH = <path_to_keras_model>
-     + DETECTION_MODEL_PATH = <path_to_detection_model>
-     + PYTORCH_MODEL_PATH = <path_to_pytorch_model>
-     + DIFFUSION_MODEL_PATH = <path_to_diffusion_model>
-  
-  2. Run all the cell 
-  
-  3. After execute the last cell , there will be a link. You can experience by yourself now
+  # Note: I recommend you use Kaggle for faster processing because of its strong GPU.
+  I. If you use Kaggle:
+        1.You create a new notebook then import notebook UnMaskUI.ipynb into it.
+        2.You must upload the models you dowloaded in the links into your notebook and change the directory to the models in the notebook.
+           + KERAS_MODEL_PATH = <path_to_keras_model>
+           + DETECTION_MODEL_PATH = <path_to_detection_model>
+           + PYTORCH_MODEL_PATH = <path_to_pytorch_model>
+           + DIFFUSION_MODEL_PATH = <path_to_diffusion_model>
+        3.Run all cells and in the final cell , there is a link of the interface appears, click on that to use my interface.
+  II. If you do not use Kaggle:
+     1. Direct and open the file: UnMaskUI.py or UnMaskUI.ipynb. They are all the same but displayed into 2 different format
+     
+     2. Paste the model path to the param:
+        + KERAS_MODEL_PATH = <path_to_keras_model>
+        + DETECTION_MODEL_PATH = <path_to_detection_model>
+        + PYTORCH_MODEL_PATH = <path_to_pytorch_model>
+        + DIFFUSION_MODEL_PATH = <path_to_diffusion_model>
+     
+     2. Run all the cell 
+     
+     3. After execute the last cell , there will be a link. You can experience by yourself now
   
 ***
 
