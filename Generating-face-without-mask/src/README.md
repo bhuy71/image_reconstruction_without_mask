@@ -10,7 +10,7 @@
 
 In an era where public health and safety are paramount, understanding and detecting the presence of face masks has become a crucial task.
 
-This project represents my initiative to develop a model capable of detecting face masks in images. Leveraging the **Face Mask Lite** dataset, I designed a machine learning pipeline focused on efficiency and accuracy. My system utilizes **Python** as the primary programming language, integrating popular libraries like Keras and Pytorch to build and train my detection model.
+This project represents my initiative to develop a model capable of detecting face masks in images. Leveraging the **Face Mask Lite** dataset, I designed a machine learning pipeline focused on efficiency and accuracy. I utilizes **Python** as the primary programming language, integrating popular libraries like Keras and Pytorch to build and train my detection model.
 
 The application is lightweight, scalable, and optimized for practical use cases such as public monitoring systems and workplace compliance checks. It prioritizes accuracy while ensuring computational efficiency, making it adaptable for deployment in real-world scenarios.
 
