@@ -32,12 +32,12 @@ import io
 from torchvision.utils import save_image
 import matplotlib.pyplot as plt
 import gradio as gr
-import tensorflow as tf
-#
-# KERAS_MODEL_PATH="/kaggle/input/generator/tensorflow2/default/1/generator (1).h5"
-# PYTORCH_MODEL_PATH='/kaggle/input/generator_epoch/pytorch/default/1/generator_epoch_60.pth'
-# DETECTION_MODEL_PATH="/kaggle/input/mark_detection/pytorch/default/1/mask_detection.pt"
-# DIFFUSION_MODEL_PATH="/kaggle/input/unmasking-diffusion/other/default/1/unmasking_diffusion.kitties015.pth"
+import tensorflow as tf 
+
+KERAS_MODEL_PATH="/kaggle/input/basic_gan__/other/default/1/generator_final.h5"
+PYTORCH_MODEL_PATH='/kaggle/input/premium_gan_model/other/default/1/generator_epoch_60.pth'
+DETECTION_MODEL_PATH="/kaggle/input/mask_detection_/other/default/1/mask_detection.pt"
+DIFFUSION_MODEL_PATH="/kaggle/input/diffusion/other/default/1/unmasking_diffusion.kitties015.pth"
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
